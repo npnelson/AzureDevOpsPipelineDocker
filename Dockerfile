@@ -21,6 +21,8 @@ RUN apt-get update \
         liblttng-ust0 \      
         libkrb5-3 \
         libssl1.0.2 \
+        libcurl3 \
+        libicu57 \
         zlib1g      
 
 WORKDIR /azp
