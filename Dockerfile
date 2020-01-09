@@ -20,6 +20,7 @@ RUN apt-get update \
         netcat \
         liblttng-ust0 \      
         libkrb5-3 \
+        libssl1.0.2 \
         zlib1g      
 
 WORKDIR /azp
