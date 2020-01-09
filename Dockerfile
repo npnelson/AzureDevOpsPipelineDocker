@@ -15,16 +15,12 @@ RUN apt-get update \
         curl \
         jq \
         git \
-        iputils-ping \
-        libcurl4 \       
+        iputils-ping \        
         libunwind8 \
         netcat \
-        liblttng-ust0 \
-        libssl1.0.0 \
+        liblttng-ust0 \      
         libkrb5-3 \
-        zlib1g \
-        libicu60
-
+        zlib1g      
 
 WORKDIR /azp
 
