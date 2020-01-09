@@ -1,4 +1,5 @@
-FROM ubuntu:18.04
+FROM openjdk:15-jdk
+#base on java image since some pipeline tasks (i.e. sonarcloud) require java
 #Azure Pipelines agent only supports subset of .NET Core Linux flavors, so just pin to ubuntu 18.04 for now 
 
 # To make it easier for build and release pipelines to run apt-get,
