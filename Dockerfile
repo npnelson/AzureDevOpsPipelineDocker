@@ -27,7 +27,6 @@ RUN apt-get update \
         liblttng-ust0 \      
         libkrb5-3 \
         libssl1.1 \
-        libcurl3 \
         libicu60 \
         libc6 \
         libgcc1 \
