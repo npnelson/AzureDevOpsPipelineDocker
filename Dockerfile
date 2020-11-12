@@ -7,6 +7,7 @@ ENV ACCEPT_EULA=Y
 ENV SA_PASSWORD=password1!
 ENV MSSQL_PID=EXPRESS
 ENV DEBIAN_FRONTEND=noninteractive
+ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
 #Need to install java for sonarcloud
 
