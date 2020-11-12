@@ -7,8 +7,6 @@ ENV ACCEPT_EULA=Y
 ENV SA_PASSWORD=password1!
 ENV MSSQL_PID=EXPRESS
 ENV DEBIAN_FRONTEND=noninteractive
-RUN echo "APT::Get::Assume-Yes \"true\";" > /etc/apt/apt.conf.d/90assumeyes
-
 
 #Need to install java for sonarcloud
 
