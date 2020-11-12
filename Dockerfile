@@ -12,8 +12,9 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 #Need to install java for sonarcloud
 
 #Just kind of pieced these together - main source https://docs.microsoft.com/en-us/dotnet/core/install/dependencies?tabs=netcore31&pivots=os-linux 
+USER root
 
-RUN sudo apt-get update \
+RUN apt-get update \
 && apt-get install -y --no-install-recommends \
         ca-certificates \
         curl \
