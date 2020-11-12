@@ -12,6 +12,7 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 #Need to install java for sonarcloud
 
 #Just kind of pieced these together - main source https://docs.microsoft.com/en-us/dotnet/core/install/dependencies?tabs=netcore31&pivots=os-linux 
+# https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
 USER root
 
 RUN apt-get update \
@@ -25,9 +26,13 @@ RUN apt-get update \
         netcat \
         liblttng-ust0 \      
         libkrb5-3 \
-        libssl1.0.2 \
+        libssl1.1 \
         libcurl3 \
-        libicu57 \
+        libicu60 \
+        libc6 \
+        libgcc1 \
+        libgssapi-krb5-2 \
+        libstdc++6 \
         zlib1g   \
         fontconfig \
         locales \
