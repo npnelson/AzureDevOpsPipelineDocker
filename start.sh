@@ -1,4 +1,7 @@
 #!/bin/bash
+
+/opt/mssql/bin/sqlservr
+
 set -e
 
 if [ -z "$AZP_URL" ]; then
