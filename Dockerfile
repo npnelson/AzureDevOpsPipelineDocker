@@ -13,7 +13,7 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
 #Just kind of pieced these together - main source https://docs.microsoft.com/en-us/dotnet/core/install/dependencies?tabs=netcore31&pivots=os-linux 
 
-RUN apt-get update \
+RUN sudo apt-get update \
 && apt-get install -y --no-install-recommends \
         ca-certificates \
         curl \
